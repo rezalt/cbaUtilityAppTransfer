@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage  xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:cbaUtility"
+             x:Class="cbaUtility.MainPage"
+             BarBackgroundColor="{StaticResource titleBgColor}"
+             BackgroundColor="{StaticResource viewBgColor}">
+
+
+
+    <local:Map></local:Map>
+
+
+    <local:Lokaler></local:Lokaler>
+    
+    
+    <local:Kurser></local:Kurser>
+
+
+    <local:Mangler></local:Mangler>
+
+
+</TabbedPage>
